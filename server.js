@@ -15,7 +15,7 @@ app.get('/contact', (req, res) => {
   res.send('<h1>wellcome to contact page</h1>')
 })
 app.get('/home-page', (req, res) => {
-  res.send('<h1>wellcome to Home page</h1>')
+  res.send('<h2>wellcome to Home page</h2>')
 })
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
